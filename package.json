@@ -1,0 +1,31 @@
+{
+  "name": "youtube-search-bot",
+  "version": "1.0.0",
+  "description": "A bot that helps you find a tutorial on Youtube",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrzj/youtube-search-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "youtube",
+    "microsoft",
+    "node"
+  ],
+  "author": "André Amorim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrzj/youtube-search-bot/issues"
+  },
+  "homepage": "https://github.com/andrzj/youtube-search-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "botbuilder": "^3.7.0",
+    "express": "^4.15.2",
+    "youtube-api": "^2.0.8"
+  }
+}
